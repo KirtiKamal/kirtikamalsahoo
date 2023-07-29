@@ -2,7 +2,7 @@ import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-6">
+    <footer className="bg-gray-800 text-white py-6 shadow-lg shadow-cyan-400">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-center space-x-6 mb-4">
           <a
@@ -38,12 +38,12 @@ const Footer = () => {
             <i className="fab fa-hashnode text-xl"></i>
           </a>
           <a
-            href="#"
+            href="https://stackoverflow.com/users/19119239/kirti-kamal"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white transition-colors duration-300"
           >
-            <i className="fab fa-instagram text-xl"></i>
+            <i className="fab fa-stack-overflow text-xl"></i>
           </a>
           {/* Add more social icons as needed */}
         </div>

@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className="bg-gray-900 text-white py-16">
+    <div id='contact' className="bg-gray-900 text-white py-16 shadow-lg shadow-cyan-400">
       <div className="container mx-auto px-4">
         <h2 className="text-xl font-bold tracking-tight bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text  sm:text-4xl ">
           Contact Me

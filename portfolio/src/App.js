@@ -8,6 +8,7 @@ import ProjectSection from './components/ProjectSection';
 import SkillSection from './components/SkillSection';
 
 
+
 function App() {
   return (
     <div className="bg-gray-800 pb-20">

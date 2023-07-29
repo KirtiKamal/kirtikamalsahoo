@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import img from './logo.jpg';
+import { useHref } from 'react-router-dom';
 
 export default function Nav() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Nav() {
   }
 
   return (
-    <nav className="bg-gray-800">
+    <nav className="bg-gray-800 sticky top-0 z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -91,6 +92,14 @@ export default function Nav() {
                 >
                   Contact
                 </a>
+                <a
+                 href= "https://kirtikamal.hashnode.dev/"
+                 target="_blank"
+                 
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer"
+                >
+                  Blogs
+                </a>
               </div>
             </div>
           </div>
@@ -157,7 +166,7 @@ export default function Nav() {
             </a>
             <a
               onClick={() => {
-                routing('skills');
+                routing('skill');
               }}
               className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
@@ -178,6 +187,13 @@ export default function Nav() {
               className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
               Contact
+            </a>
+            <a
+              href= "https://kirtikamal.hashnode.dev/"
+              target="_blank"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            >
+              Blogs
             </a>
           </div>
         </div>
