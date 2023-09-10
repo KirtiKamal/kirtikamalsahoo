@@ -36,9 +36,9 @@ const SkillSection = () => {
   }, [inView, animateSlider]);
 
   return (
-    <section id="skill" className="bg-gray-900 text-white py-10 shadow-inner shadow-cyan-400">
+    <section id="skill" className="bg-gradient-to-t from-sky-900 to-gray-900 text-white py-10 shadow-inner shadow-cyan-400">
       <div className="max-w-6xl mx-auto px-4">
-        <motion.span className="text-5xl bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text sm:text-6xl font-semibold text-center mb-8">Skills</motion.span>
+        <motion.span className="text-xl font-bold bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text sm:text-6xl font-semibold text-center mb-8">Tech Stack</motion.span>
         <motion.div
           className="grid grid-cols-2 md:grid-cols-5 gap-4 mt-3"
           ref={inViewRef}

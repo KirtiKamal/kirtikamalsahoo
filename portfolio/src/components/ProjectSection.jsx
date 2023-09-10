@@ -106,7 +106,7 @@ const ProjectSection = () => {
   }, [isInView]) ;
 
   return (
-    <div id="newsroom" className="bg-gradient-to-l from-gray-700 via-gray-900 to-black sm:py-5" ref={ref}>
+    <div id="project" className="bg-gradient-to-l from-gray-700 via-gray-900 to-black sm:py-5" ref={ref}>
       <div className="max-w-screen-lg mx-auto px-4 py-5 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
         <motion.span className="text-3xl p-4 font-bold text-center tracking-tight bg-gradient-to-r from-cyan-300 to-blue-500 text-transparent bg-clip-text sm:text-4xl" animate={animateH2}>My Projects</motion.span>
